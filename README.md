@@ -42,3 +42,14 @@ These are upcoming or experimental:
 - 🧮 Budget Tracker
 - 🌅 Wallpaper Dashboard
 - 🎾 Tennis Training Tracker (experimental)
+
+🛠️ Setup & Running the Project
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+📬 Contributions & Feedback
+
+LifeHub is a personal learning project, but I'm always open to feedback, ideas, or suggestions on improving the structure or UI.
