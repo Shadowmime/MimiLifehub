@@ -1,0 +1,94 @@
+
+.weather-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* fill the window */
+}
+
+.weather-app header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.weather-app main {
+  flex: 1;
+  overflow: auto;
+}
+
+.weather-header {
+  display: flex;
+  justify-content: space-between; /* title on left, button on right */
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #222; /* adjust as needed */
+  color: white;
+}
+
+.back-btn {
+  background: transparent;
+  border: 1px solid white;
+  padding: 4px 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.weather-body {
+  position: relative; /* allows absolute positioning inside */
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Full-size background layer */
+.pokemon-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+/* Floating circle for temperature */
+.temp-circle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  z-index: 1;
+}
+
+/* Floating info box at bottom */
+.weather-info-box {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  background: rgba(255,255,255,0.8);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+}
+
+.loading-text {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background: rgba(255,255,255,0.8);
+  padding: 8px 12px;
+  border-radius: 8px;
+  z-index: 1;
+}
