@@ -1,6 +1,7 @@
 import { useState } from 'react'
 //import reactLogo from '../assets/react.svg'
 //import viteLogo from '../vite.svg'
+import { Link } from 'react-router-dom';
 
 function FinanceTracker() {
   const [entries, setEntries] = useState([]);
@@ -30,6 +31,11 @@ function FinanceTracker() {
   return (
     <div className="max-w-xl mx-auto p-4">
       <h1 className="text-2xl font-bold text-center mb-4">💸 Money Tracker</h1>
+
+      <div style={{ padding: '20px' }}>
+        <p>Finance Tracker to be implemented soon...</p>
+        <Link to="/"><button>⬅ Back to Dashboard</button></Link>
+      </div>
 
       <div className="bg-white rounded shadow p-4 mb-4">
         <h2 className="text-xl font-semibold">Balance: ${total.toFixed(2)}</h2>

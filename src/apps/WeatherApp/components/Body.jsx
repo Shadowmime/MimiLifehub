@@ -1,14 +1,24 @@
 // components/WeatherBody.jsx
 import React, { useEffect, useState } from "react";
-import rayquaza from "../pokemonFrames/Rayquaza1.jpg";
+import sunnyBg from "../backgrounds/sunny.png";
+import cloudyBg from "../backgrounds/cloudy.png";
+import rainyBg from "../backgrounds/rainy.png";
 
 export default function WeatherBody() {
   const [weatherData, setWeatherData] = useState(null);
 
+  const weatherBackgrounds = {
+    Clear: sunnyBg,
+    Clouds: cloudyBg,
+    Rain: rainyBg,
+    Drizzle: rainyBg,
+    Thunderstorm: rainyBg,
+  };
+
   useEffect(() => {
     const fetchWeather = async () => {
       try {
-        const apiKey = "a5f03456353848e72cff7374b802d372"; 
+        const apiKey = import.meta.env.VITE_WEATHER_KEY; 
         const lat = -33.9667;
         const lon = 151.1000;
 
@@ -32,16 +42,22 @@ export default function WeatherBody() {
 
   return (
     <main className="weather-body">
-      {/* Background image */}
+      {/* Pokémon silhouette or placeholder */}
       <div
         className="pokemon-bg"
-        style={{ backgroundImage: `url(${rayquaza})` }}
+        style={{
+          backgroundImage: `url(${
+            weatherData ? weatherBackgrounds[weatherData.weather[0].main] : sunnyBg
+          })`,
+        }}
       />
 
-      {/* Overlay content */}
       {weatherData ? (
         <>
-          <div className="temp-circle">{Math.round(weatherData.main.temp)}°C</div>
+          <div className="temp-circle">
+            {Math.round(weatherData.main.temp)}°C
+          </div>
+
           <div className="weather-info-box">
             It’s {weatherData.weather[0].description} today
           </div>
