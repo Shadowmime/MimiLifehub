@@ -44,10 +44,13 @@ These are upcoming or experimental:
 - 🎾 Tennis Training Tracker (experimental)
 
 🛠️ Setup & Running the Project
+
 Install dependencies
+
 npm install
 
 Start dev server
+
 npm run dev
 
 📬 Contributions & Feedback
