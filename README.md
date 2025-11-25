@@ -1,4 +1,4 @@
-LifeHub
+# LifeHub
 
 A growing collection of simple, personal productivity mini-apps built with modern web technologies.
 
@@ -12,55 +12,33 @@ Currently, the first implemented feature is a Weather App, with more apps planne
 A clean and lightweight weather viewer that displays real-time temperature, conditions, and location-based data.
 
 Features
-
-Search weather by city
-
-Displays temperature, conditions, humidity, wind
-
-Simple and responsive UI
-
-Built using open weather APIs
-
-Built to expand into a more advanced dashboard in future updates
+- Search weather by city
+- Displays temperature, conditions, humidity, wind
+- Simple and responsive UI
+- Built using open weather APIs
+- Built to expand into a more advanced dashboard in future updates
 
 🧱 Tech Stack
-
-LifeHub is being developed using:
-
-React + Vite (frontend)
-
-Node.js / Express (planned future backend)
-
-REST APIs
-
-Custom UI components
-
-Modular project structure for expandable mini-apps
-
-More tools will be integrated as additional apps are added.
+- LifeHub is being developed using:
+- React + Vite (frontend)
+- Node.js / Express (planned future backend)
+- REST APIs
+- Custom UI components
+- Modular project structure for expandable mini-apps
+- More tools will be integrated as additional apps are added.
 
 📌 Project Goals
-
-Build a personal toolkit of micro-apps I’ll actively use
-
-Strengthen full-stack development skills
-
-Practice clean code, modular design, and component reuse
-
-Experiment with different APIs and front-end patterns
-
-Grow the project into a small but polished portfolio piece
+- Build a personal toolkit of micro-apps I’ll actively use
+- Strengthen full-stack development skills
+- Practice clean code, modular design, and component reuse
+- Experiment with different APIs and front-end patterns
+- Grow the project into a small but polished portfolio piece
 
 📈 Planned Mini-Apps
 
 These are upcoming or experimental:
-
-📝 Notes / To-Do Manager
-
-🕒 Pomodoro Timer
-
-🧮 Budget Tracker
-
-🌅 Wallpaper Dashboard
-
-🎾 Tennis Training Tracker (experimental)
+- 📝 Notes / To-Do Manager
+- 🕒 Pomodoro Timer
+- 🧮 Budget Tracker
+- 🌅 Wallpaper Dashboard
+- 🎾 Tennis Training Tracker (experimental)
