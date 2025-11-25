@@ -1,12 +1,66 @@
-# React + Vite
+LifeHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A growing collection of simple, personal productivity mini-apps built with modern web technologies.
 
-Currently, two official plugins are available:
+LifeHub is a small suite of tools I’m developing to sharpen my full-stack skills while building utilities that I regularly use.
+The project is designed as a modular platform where each mini-app lives in its own section, allowing me to iterate, improve, and add new tools over time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currently, the first implemented feature is a Weather App, with more apps planned.
 
-## Expanding the ESLint configuration
+### 🌤️ Weather App (v1)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A clean and lightweight weather viewer that displays real-time temperature, conditions, and location-based data.
+
+Features
+
+Search weather by city
+
+Displays temperature, conditions, humidity, wind
+
+Simple and responsive UI
+
+Built using open weather APIs
+
+Built to expand into a more advanced dashboard in future updates
+
+🧱 Tech Stack
+
+LifeHub is being developed using:
+
+React + Vite (frontend)
+
+Node.js / Express (planned future backend)
+
+REST APIs
+
+Custom UI components
+
+Modular project structure for expandable mini-apps
+
+More tools will be integrated as additional apps are added.
+
+📌 Project Goals
+
+Build a personal toolkit of micro-apps I’ll actively use
+
+Strengthen full-stack development skills
+
+Practice clean code, modular design, and component reuse
+
+Experiment with different APIs and front-end patterns
+
+Grow the project into a small but polished portfolio piece
+
+📈 Planned Mini-Apps
+
+These are upcoming or experimental:
+
+📝 Notes / To-Do Manager
+
+🕒 Pomodoro Timer
+
+🧮 Budget Tracker
+
+🌅 Wallpaper Dashboard
+
+🎾 Tennis Training Tracker (experimental)
